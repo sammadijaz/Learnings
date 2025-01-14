@@ -1,0 +1,132 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #262626;
+    overflow: hidden;
+
+}
+
+.navbar{
+    overflow: hidden;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 90px;
+    width: 100%;
+}
+
+.top-img{
+    width: 145px;
+    position: absolute;
+    left: 80px;  
+    z-index: 99;  
+    top: 0.5%;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 40px;
+    position: absolute;
+    left: 250px;
+    font-weight: 900;
+    top: 8%
+}   
+
+.line{
+    background-color: #ffffff;
+    width: 100%;
+    height: 8px;
+    top: 95px;
+    position: absolute;
+}
+
+.bgc-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_avif,h_700,q_65,w_1440/v1/clients/newyork/new_york_new_year_cc1b79f0-7c8a-4c5c-b9de-7900ff777d65.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+.box{
+    background: #000000dc;
+    width: 700px;
+    height: 350px;
+    z-index: 99999;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    box-shadow: 0 0 10px #00000080;
+    border-radius: 20px;
+}
+
+.text-container{
+    color:#fff;
+    top: 50%;
+    left: 3%;
+    position: absolute;
+    z-index: 99999;
+
+}
+
+.text-container h1{
+    font-weight: 900;
+    line-height: 5px;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: #ffca01;
+}
+
+.text-container p{
+
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: #ffffff;
+    width: 700px;
+    font-weight: 700;
+}
+
+.div{    
+    background: #000000d7;
+    width: 200px;
+    height: 50px;
+    z-index: 99999;
+    position: absolute;
+    top: 110%;
+    left: 5%;
+    box-shadow: 0 0 10px #00000080;
+    border-radius: 20px;
+    border: 1px solid ;
+    cursor: pointer;
+}
+
+.div input{
+    background-color: transparent;
+    border: transparent;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+
+
