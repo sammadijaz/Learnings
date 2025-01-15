@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+.left{
+    height: 100%;
+    width: 40%;
+    position: relative;
+}
+
+.right{
+    height: 100%;
+    width: 60%;
+}
+
+
+.rtop{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    background-color: #1d5e48;
+}
+
+.rbottom{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1606914505572-f6d1490d02e5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+.rtopleft{
+    height: 100%;
+    width: 55%;
+    background-color: #8b2222;
+    background-image: url(./assets/cactus.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.rtopright{
+    height: 100%;
+    width: 45%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1691095182210-a1b3c46a31d6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.lnav{
+    padding: 20px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lnavleft a{
+   margin-right: 20px;
+   text-decoration: none;
+   color: #000;
+   font-weight: 700;
+   font-size: 19px;
+}   
+
+.lnavleft i{
+    color: rgb(0, 132, 255);
+    font-size: 23px;
+}
+
+.lnavright{
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.lnavright a{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.left .text-container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-container h1{
+    font-weight: 800;
+    font-size: 100px;
+    font-family: "Gilroy";
+    opacity: .8;
+}
+
+.text-container p{
+    font-family: "Gilroy";
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    opacity: .6;
+    letter-spacing: 2px;
+}
+
+.text-container a{
+    position: absolute;
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+    padding: 5px;
+    border-bottom: 1px solid #000;
+    font-size: 19px;
+}
+
+.rnav{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background-color: #fff;
+    top: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rnav i{
+    margin: 20px;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.rnav a{
+    text-decoration: none;
+    color: #000;
+}
