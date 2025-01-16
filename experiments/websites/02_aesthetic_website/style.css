@@ -151,3 +151,47 @@ html,body{
     text-decoration: none;
     color: #000;
 }
+
+@media(max-width: 500px){
+    body{
+        overflow: hidden;
+    }
+    
+    .main{
+        flex-direction: column;
+    }
+
+    .main .left{
+        width: 100%;
+    }
+
+    .main .right{
+        width: 100%;
+    }
+
+    .text-container h1{
+
+        margin-top: 60px;
+    }
+
+    .text-container p{
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+
+   .right{
+    margin-top: 120px;
+   }
+
+   .rnav{
+    width: 25%;
+    height: 5%;
+    top: 95%;
+   }
+
+    .rnav a{
+        left:10px;
+        width: 10%;
+    }
+
+}
