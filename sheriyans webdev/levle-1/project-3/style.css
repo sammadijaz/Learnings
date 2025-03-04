@@ -1,0 +1,159 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy', sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 70px;
+    color: #36363a;
+    
+}
+
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+    width: 41%;
+    font-weight: 700;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.nav-right h2{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nav-left h2{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.center-text{
+    width: 100%;
+    padding: 60px 150px;
+}
+
+.center-text h1{
+    font-size: 120px;
+    font-weight: 500;
+    letter-spacing: -6px;
+    line-height: 105px;
+    word-spacing: 8px;
+}
+
+.center-text h2{
+    color: #36363a;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.case-studies{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 70px;
+    color: #36363a;
+    font-weight: 600;
+}
+
+.line{
+    width: 150px;
+    height: 3px;
+    background-color: #36363a;
+}
+
+.case-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.projects{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    color: #36363a;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+
+.projects-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects-left i{
+    font-size: 40px;
+    padding: 10px 20px;
+    border: 3px solid #36363a;
+    border-radius: 50px;
+}
+
+.projects-right i{
+    font-size: 40px;
+    padding: 10px 20px;
+    border: 3px solid #36363a;
+    border-radius: 50px;
+}
+
+.projects-left i:hover{
+    color: #fff;
+    background-color: #080808;
+    border-color: #080808;
+    cursor: pointer;
+}
+
+.projects-right i:hover{
+    color: #fff;
+    background-color: #080808;
+    border-color: #080808;
+    cursor: pointer;
+}
+
+.projects-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    padding-bottom: 50px;
+}
+
+.text h2{
+    font-size: 35px;
+}
+
+.text h3{
+    font-size: 22px;
+    opacity: 55%;
+}
+
+
+
+

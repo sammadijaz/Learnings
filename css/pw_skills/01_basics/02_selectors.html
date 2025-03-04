@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in HTML</title>
+    <style>
+        
+        *{
+            /* This method of putting marging and padding to zero is called 'Reset CSS' */
+
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: #242424;
+            color: #ffffff;
+        }
+
+        #bg-green{
+            background-color: #3e8e41;
+        }
+
+        .bg-red{
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, atque.</h1>
+    
+    <h2 id="bg-green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, vel.</h2>
+
+    <!-- We should not be using one id for more than one elements. 
+
+    But if we give both the id and class to an element, the browser would priortize the id over the class.
+    
+    This isbecause id is more 'specific' than class.
+
+    
+    Specifity in CSS means which property would have more priority.
+    
+    What is more specific, will be given more priority, Like in this case id is more specific than class.
+
+    More about Specifity here: https://www.w3schools.com/css/css_specificity.asp 
+    
+    -->
+    
+    <h3 id="bg-green" class="bg-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, nemo!</h3>  <!-- We see that green color is applied here proving that id has more priority than class -->
+
+    
+</body>
+</html>

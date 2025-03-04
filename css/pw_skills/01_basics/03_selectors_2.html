@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors 2</title>
+    <style>
+        body{
+            background-color: #212121;
+            color: #ffff;
+        }
+
+        a[target]{ /* we can target specific elements by using their attributes just like now*/
+            background-color: #ffae00;
+        }
+
+        .hover-effect:hover{ /* we can also target elements based on their states like this */
+
+            background-color: #0714cc;
+            font-size: 250%;
+
+        }
+
+        button:hover{
+            background-color: #b4b2b2;
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        p::first-letter{
+            background-color: #12bb36;
+            font-size: 300%;
+        }
+
+        ul li{
+            color: #a5f7db;
+        }
+
+        div a:hover {
+            color: #7fff00;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1 class="hover-effect">Lorem ipsum dolor sit amet.</h1>
+
+    <h2>Lorem, ipsum dolor.</h2>
+
+    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+
+    <h3>Lorem ipsum dolor sit amet.</h3>
+
+    <h1>Lorem, ipsum dolor.</h1>
+
+    <h2>Lorem ipsum dolor sit.</h2>
+
+
+    <div>
+        <a target="_blank" href=""></a>
+        <div>
+            <a href="#">Google</a>
+        </div>
+    </div>
+
+    <a target="_parent" href=""></a>
+
+    <p>
+        This is a pargraph
+    </p>
+
+    <div>
+        <div>
+            <button type="submit">Button</button>
+        </div>
+
+        <div>
+            <input class="input" type="text">
+        </div>
+    </div>
+
+    <div>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <li>4</li>
+
+    </div>
+
+</body>
+</html>

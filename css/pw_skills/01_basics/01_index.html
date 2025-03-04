@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Intro</title>    
+    <style>
+
+        *{
+            margin: 0;
+        }
+
+        /* 
+        
+        ' * ' is called 'regex' which is the short form of 'regular expression'. 
+         
+        It allows you to select everything on the web page.
+         
+        You can use this overwrite the CSS which your browser injects on its own. 
+     
+        In our example, we are using 0 margin overwrite the gap between h1 heading and the top which was injected by the browser. 
+         
+        */
+        
+        
+        /*         
+        
+        We can target whole html code like this: 
+
+        html{
+            background-color: #000000; /* background color of the whole html */
+
+            /* We could add an image at the background by using background tag:  
+
+            background: url(https://images.pexels.com/photos/17036353/pexels-photo-17036353/free-photo-of-screens-mockup.jpeg) no-repeat center center fixed;
+            
+            background-size: cover;
+            
+        }
+ 
+        */     
+
+        /* Exploring the above code while targeting the body this time:  */
+
+        body{
+
+            color: #ffffff;
+
+            background-image: url(https://images.pexels.com/photos/17036353/pexels-photo-17036353/free-photo-of-screens-mockup.jpeg);
+            
+            background-repeat: no-repeat; /* This will prevent the image from repeating */
+            
+            background-position: center center; /* This will place the image at the center of the page * (center is 2 times cuz the values of x and y axis) */
+            
+            background-size: cover; /* This will make the image cover the whole page */
+
+        }
+        
+        h2{
+            color: #fbff07;
+            
+            background-color: #04a339c7;
+            
+            text-align: center;
+            
+            padding: 30px;  /* paddings adds an invisible border and bubbles the element */
+            
+            text-decoration: underline;  /* text-decoration allows to decorate text using underline etc */
+            
+            margin: 120px; /* It adds a gap between the element and the background outside of the element */
+
+            border: 5px solid #ffffff; /* border adds a border around the element */
+
+             } 
+
+        span{
+            display: block;
+            background-color: #e76901;
+            
+            font-size: 25px;
+            text-align: center;
+        }     
+        
+        p{
+            display: inline;
+            background-color: #4b24f7;
+
+            font-size: 25px;
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1
+    style="
+    background-color: #c500df;
+    text-align: center;
+    "
+    >CSS Introduction</h1>
+
+    <br>
+
+    <!-- The margin betweem the both h2 elements below is 120px not 120px times 2 because of the property called "margin collapse (https://www.youtube.com/watch?v=eZJJPMwG5ec)" -->
+     
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, beatae.</h1>
+    
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, beatae.</h1>
+
+    <span>Span is inline element but we displayed it as block element by using 'display' property is css</span>     
+
+    <p>This is paragraph, which is a block element but we displayed it as inline element by using 'display' property in css</p>
+
+    
+</body>
+</html>

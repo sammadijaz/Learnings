@@ -1,0 +1,1 @@
+console.log('Another externally linked Javascript file');

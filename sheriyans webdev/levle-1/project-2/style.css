@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.left-text{
+    position: absolute;
+    font-size: 140px;
+    font-weight: 600;
+    margin: 50px;
+    margin-left: 90px;
+    line-height: 140px;
+    top: 1%;
+    letter-spacing: -6px;
+    color: #1E1E21;
+}
+
+.right-menu{
+    right: 3%;
+    font-size: 25px;
+    margin: 40px;
+    position: fixed;
+    z-index: 9;
+}
+
+.right-menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cart{
+    padding: 10px 20px;
+    border-radius: 100%;
+    background-color: #1E1E21;
+}
+
+.menu{
+    padding: 20px 20px;
+    border-radius: 40px;
+    background-color: #1E1E21;
+}
+
+.small-text{
+    font-size: 40px;
+    position: absolute;
+    top: 80%;
+    left: 2%;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.scroll-down{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    position: absolute;
+    right: 8%;
+    bottom: 40%;
+    color: #1E1E21;
+}
+
+.scroll-down i{
+    font-size: 55px;
+    color: #1E1E21;
+}
+
+.profile-pic{
+    width: 100%;
+    height: 95%;
+    background-color: #000000;
+    position: absolute;
+    top: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-pic img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: cover;
+
+}
+
+.second{
+    height: 100%;
+    width: 100%;
+    background-color: #1bff13;
+    position: absolute;
+    top: 157%
+}
+
+.para{
+    position: absolute;
+    margin: 70px;
+    margin-top: 90px;
+    font-size: 85px;
+    font-weight: 600;
+    width: 58%;
+    letter-spacing: -4px;
+    color: #1E1E21; 
+}

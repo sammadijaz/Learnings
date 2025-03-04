@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+            background-color: #262626;
+            color: #fff;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 50px;
+            font-size: 20px;
+        }
+
+        .navbar h3{
+            font-size: 30px;
+        }
+
+        ul{
+            display: flex;
+            gap: 50px;
+            list-style: none;
+        }
+
+        h1{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 90px;
+            white-space: nowrap;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="navbar">
+            <h3>Menu</h3>
+            <ul>
+                <li class="home">Home</li>
+                <li class="about">About</li>
+                <li class="contact">Contact</li>
+                <li class="feedback">Feedback</li>
+            </ul>
+        </div>
+    </nav>
+    <h1>DOM Manipulation</h1>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

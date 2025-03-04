@@ -1,0 +1,110 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #262626;
+    color: #fff; 
+    overflow: hidden; 
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #c0a5ac;
+    display: flex;
+}
+
+
+.part1{
+    height: 100%;
+    width: 20%;
+    /* background-color: #dc143c; */
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #d395a433;
+
+}
+
+.part2{
+    height: 100%;
+    width: 70%;
+    /* background-color: #2870f7; */
+    background-image: url(https://images.unsplash.com/photo-1654807527306-b23997b4b17f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+
+}
+.part3{
+    height: 100%;
+    width: 10%;
+    /* background-color: #13bd38; */
+}
+
+.text{
+    position: absolute;
+    top: 32%;
+    left: 8%;
+    /* background-color: #d80f0f; */
+
+}
+
+.text h1{
+    font-size: 90px;
+    line-height: 95%;
+}
+
+.small-img{
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    background-image: url(https://images.unsplash.com/photo-1654807664301-0dede86dee6d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+
+
+}
+
+
+.right-text{
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    letter-spacing: 10px;
+    font-size: 40px;
+    transform: rotate(90deg);
+    right: -34%;
+    top: 23%;
+    transform-origin: 0%, 0%; 
+}
+
+.nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar{
+    background-color: #fff;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.nav h5{
+    margin-left: 25px;
+    margin-top: 40px;
+    font-size: 110%;
+}
