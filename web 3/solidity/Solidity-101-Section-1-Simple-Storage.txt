@@ -1,0 +1,66 @@
+// SPDX-License-Identifier: MIT
+// This is a license thing its not needed by the compiler and it would be fine not to write it but still it would throw a warning if we dont write it hence it is highly recommended to write it.
+
+// solidity versions
+pragma solidity 0.8.18; // this says only use this version
+// ^0.8.18 would mean to use this or bigger
+// We could specify a range like: <=0.8.18 <0.9.0 this would tell the compiler any version between them two is fine but not greater or lesser.
+
+contract SimpleStorage {
+
+    // Basic Types: boolean, int, uint, address, bytes
+
+    bool doesUserHaveAnAddres = true; // bool can store true or false
+
+    int256 signedInteger = -10; // int can have negative or postive value
+
+    uint216 unsignedInteger = 10; // uint can only have positive value
+
+    // 256, 16, 32 etc at the end denotes how many bits it stores, if we don't write anything to specify bits it stores 256 bits by default 
+
+    address myAddress = 0x259642D272Cd759eef4Dec229942758DAE8FF6d2;
+
+    string inText = "Ten";
+
+    bytes32 textBytes = "hello"; // uint256 and uint means the same but bytes and bytes32 are different types and not the same
+
+    // bytes and strings are techinally the same under the hood
+
+
+
+    // favouriteNumber
+
+    uint256 favouriteNumber; // if we only initialize and dont declare any value, default value of uint256 is going to be 0
+
+    // default value of bool is going to be false
+
+
+    // fuctions
+
+    uint256 public aNumber; // public makes a getter function to be able to see the value   
+
+    function storeNumber (uint256 _aNumber) public {
+        aNumber = _aNumber;
+    }
+
+    // getter function
+    // this is what public keyword does to the variable
+
+    // view, pure
+    function getter () public view returns(uint256) {
+        return aNumber;
+    }
+    // view only reads information from the blockchain, it does not modify or sends any transaction
+    // pure does not allow modifying but it doesn't allow reading from the blockchain either.
+
+    // you can notice that the function storeNumber's button is yellow while the other two buttons are blue, this is because only storeNumber modifies the blockchain while the other do not.
+    // the view or pure functions do not spend any gas because they do not send any transactions
+
+    // but if we view the terminal it does costs gas but it only applies when it gets called by the contract itself
+
+    // in another case view or pure functions can cost gas and that is when another functions that does cost gas calls them
+    // for example if we put our getter() in storeNumber function and call it, it will cost more gas
+
+
+
+}
